@@ -1,29 +1,14 @@
-a = 20;
-b = 30;
+let a = 20;
+let b = 30;
 
-function tambah (a,b){
-    return a + b;
-}
-
-function kurang (a,b){
-    return a - b;
-}
-
-function kali (a,b){
-    return a * b;
-}
-
-function bagi (a,b){
-    return a / b;
-}
-
-function persen (a,b){
-    return a % b;
-}
+const tambah = (a, b) => a + b;
+const kurang = (a, b) => a - b;
+const kali   = (a, b) => a * b;
+const bagi   = (a, b) => a / b;
+const persen = (a, b) => a % b;
 
 console.log(`angka 1 : ${a}`);
 console.log(`angka 2 : ${b}`);
-
 
 console.log(`hasil pertambahan : ${tambah(a,b)}`);
 console.log(`hasil pengurangan : ${kurang(a,b)}`);
